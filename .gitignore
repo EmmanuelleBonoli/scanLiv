@@ -1,0 +1,34 @@
+# Sorties de build Nuxt
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Dépendances
+node_modules
+
+# Tests
+coverage
+test-results
+playwright-report
+blob-report
+
+# Logs
+logs
+*.log
+
+# IDE / OS
+.idea
+*.iml
+.vscode
+.fleet
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environnement
+.env
+.env.*
+!.env.example
