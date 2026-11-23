@@ -1,0 +1,25 @@
+{
+  // Couches métier hors de app/ : vérifiées en TypeScript strict, sans les types Nuxt,
+  // ce qui garantit qu'elles ne dépendent pas du framework.
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.cache/tsconfig.core.tsbuildinfo",
+    "types": [],
+    "paths": {
+      "#domain/*": ["./domain/*"],
+      "#application/*": ["./application/*"],
+      "#infrastructure/*": ["./infrastructure/*"]
+    }
+  },
+  "include": ["domain/**/*.ts", "application/**/*.ts", "tests/unit/**/*.ts", "tests/fixtures/**/*.ts"]
+}

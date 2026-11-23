@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* Ambiance déco inspirée des maquettes : tons naturels et accent terracotta */
+@theme static {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Fraunces', serif;
+
+  --color-terracotta-50: #FBF4F1;
+  --color-terracotta-100: #F5E4DC;
+  --color-terracotta-200: #EAC6B6;
+  --color-terracotta-300: #DCA287;
+  --color-terracotta-400: #C97B5C;
+  --color-terracotta-500: #B4603F;
+  --color-terracotta-600: #9C4F33;
+  --color-terracotta-700: #7F402B;
+  --color-terracotta-800: #653527;
+  --color-terracotta-900: #532D23;
+  --color-terracotta-950: #2D1611;
+
+  --color-linen-50: #FAF7F2;
+  --color-linen-100: #F3EEE6;
+  --color-linen-200: #E7DFD3;
+  --color-linen-300: #D5C9B8;
+  --color-linen-400: #B4A692;
+  --color-linen-500: #8F8270;
+  --color-linen-600: #706556;
+  --color-linen-700: #5A5145;
+  --color-linen-800: #433D35;
+  --color-linen-900: #2E2A25;
+  --color-linen-950: #1A1815;
+}
+
+:root {
+  --ui-bg: var(--color-linen-100);
+  /* Cible tactile minimale : utilisable avec des gants, en réserve */
+  --touch-target: 48px;
+}
