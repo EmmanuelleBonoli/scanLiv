@@ -18,21 +18,21 @@
   --color-terracotta-900: #532D23;
   --color-terracotta-950: #2D1611;
 
-  --color-lin-50: #FAF7F2;
-  --color-lin-100: #F3EEE6;
-  --color-lin-200: #E7DFD3;
-  --color-lin-300: #D5C9B8;
-  --color-lin-400: #B4A692;
-  --color-lin-500: #8F8270;
-  --color-lin-600: #706556;
-  --color-lin-700: #5A5145;
-  --color-lin-800: #433D35;
-  --color-lin-900: #2E2A25;
-  --color-lin-950: #1A1815;
+  --color-linen-50: #FAF7F2;
+  --color-linen-100: #F3EEE6;
+  --color-linen-200: #E7DFD3;
+  --color-linen-300: #D5C9B8;
+  --color-linen-400: #B4A692;
+  --color-linen-500: #8F8270;
+  --color-linen-600: #706556;
+  --color-linen-700: #5A5145;
+  --color-linen-800: #433D35;
+  --color-linen-900: #2E2A25;
+  --color-linen-950: #1A1815;
 }
 
 :root {
-  --ui-bg: var(--color-lin-100);
+  --ui-bg: var(--color-linen-100);
   /* Cible tactile minimale : utilisable avec des gants, en réserve */
-  --cible-tactile: 48px;
+  --touch-target: 48px;
 }
